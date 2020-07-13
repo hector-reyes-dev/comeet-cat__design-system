@@ -1,4 +1,4 @@
-# Landing Page Acabados Integrales
+# Design System - Comeet Cat
 
 Deploy: 🛠️
 
