@@ -1,12 +1,18 @@
 import React from "react";
-import "./App.css";
+import { GlobalStyle } from "./components/Styles/GlobalStyle";
+import { Layout } from "./components/Styles/Layout";
+
+import NavBar from "./components/NavBar/index";
+import { Rutas } from "./container/Rutas";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Soy un Design System</h1>
-      </header>
+    <div>
+      <GlobalStyle />
+      <Layout>
+        <NavBar />
+        <Rutas />
+      </Layout>
     </div>
   );
 }
