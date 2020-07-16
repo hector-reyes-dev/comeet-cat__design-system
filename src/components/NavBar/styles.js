@@ -3,18 +3,18 @@ import { Link as LinkRouter } from "@reach/router";
 
 export const Nav = styled.div`
   position: fixed;
-  min-width: 20%;
+  min-width: 25%;
   display: flex;
   flex-direction: column;
   grid-column-start: 1;
   min-height: 100vh;
-  padding: 24px;
+  padding: 32px;
   background-color: #4f3e7a;
 `;
 
 export const PrimaryLink = styled(LinkRouter)`
   display: block;
-  margin: 16px 24px 8px 24px;
+  margin: 16px 24px 0px 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -52,4 +52,5 @@ export const Subtitle = styled.h2`
   font-weight: 300;
   margin: 0 auto;
   text-transform: uppercase;
+  letter-spacing: 2px;
 `;

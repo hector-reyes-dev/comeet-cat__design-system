@@ -6,9 +6,10 @@ export const Coding = styled.p`
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 32px;
+  min-width: 40%;
   max-width: 100%;
   overflow: auto;
-  padding: 24px 32px;
+  padding: 16px 24px;
   display: block;
   word-wrap: break-word;
   background: #d0c9e4;

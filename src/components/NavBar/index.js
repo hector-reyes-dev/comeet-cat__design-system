@@ -8,7 +8,7 @@ class NavBar extends Component {
       <Nav>
         <Logo />
         <Title>Asteroid</Title>
-        <Subtitle>Design System</Subtitle>
+        <Subtitle>Documentación</Subtitle>
 
         <PrimaryLink to="/brand">Marca</PrimaryLink>
         <SecondaryLink to="/brand">Visión</SecondaryLink>

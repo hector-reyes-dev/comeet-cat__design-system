@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { Line, Heading } from "./styles";
+import { Heading } from "./styles";
+import PrimaryLine from "../Line";
 
 class Title extends Component {
   render() {
     return (
       <div>
         <Heading>{this.props.title}</Heading>
-        <Line />
+        <PrimaryLine />
       </div>
     );
   }
