@@ -10,9 +10,10 @@ html {
     box-sizing: inherit;
   }
 
-  ul, li, h1, h2, h3, p, button {
-    margin: 0;
-    padding: 0;
+  p {
+    color: #342951;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   ul {

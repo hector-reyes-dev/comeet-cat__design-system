@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Link as LinkRouter } from "@reach/router";
 
 export const Nav = styled.div`
-  position: sticky;
+  position: fixed;
+  min-width: 20%;
   display: flex;
   flex-direction: column;
   grid-column-start: 1;
@@ -11,13 +12,26 @@ export const Nav = styled.div`
   background-color: #4f3e7a;
 `;
 
-export const Link = styled(LinkRouter)`
+export const PrimaryLink = styled(LinkRouter)`
   display: block;
-  margin: 8px 24px;
+  margin: 16px 24px 8px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f3f1f8;
+  text-decoration: none;
+  &:hover {
+    color: #ada0cf;
+  }
+`;
+
+export const SecondaryLink = styled(LinkRouter)`
+  display: block;
+  margin: 4px 24px 4px 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  color: #f3f1f8;
+  font-size: 16px;
+  color: #d0c9e4;
   text-decoration: none;
   &:hover {
     color: #ada0cf;
@@ -34,9 +48,8 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.h2`
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 300;
   margin: 0 auto;
-  margin-bottom: 40px;
   text-transform: uppercase;
 `;

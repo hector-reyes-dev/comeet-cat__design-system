@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Heading = styled.h1`
-  font-size: 34px;
+  font-size: 44px;
   font-weight: 700;
   color: #6952a3;
 `;
