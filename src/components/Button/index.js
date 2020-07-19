@@ -4,7 +4,7 @@ import { Btn } from "./styles";
 class Button extends Component {
   render() {
     return (
-      <a href={this.props.url}>
+      <a target="_blank" rel="noopener noreferrer" href={this.props.url}>
         <Btn>{this.props.value}</Btn>
       </a>
     );

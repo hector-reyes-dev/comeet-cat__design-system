@@ -6,18 +6,25 @@ export const RowColor = styled.div`
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin: 16px 0;
+  padding: 16px;
+  &:hover {
+    background-color: rgba(208, 201, 228, 0.2);
+  }
 `;
 
 export const ColorContainer = styled.div`
   max-width: 25%;
   padding: 8px;
+  & p {
+    margin: 2px;
+  }
 `;
 
 export const ColorWrap = styled.div`
-  background-color: #6952a3;
+  background-color: ${(props) => props.inputColor || "palevioletred"};
   min-width: 100%;
   min-height: 40px;
+  margin-bottom: 16px;
   border-radius: 8px;
 `;
 

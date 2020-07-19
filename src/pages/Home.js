@@ -2,10 +2,10 @@ import React, { Fragment } from "react";
 
 import Title from "../components/Title";
 import LogoDark from "../components/LogoDark";
-import Subtitle from "../components/Subtitle";
 import Intro from "../components/Intro";
 import Button from "../components/Button";
-import SecondarySubtitle from "../components/SecondarySubtitle";
+import Subtitle from "../components/Subtitle";
+import PrimaryLine from "../components/Line";
 
 export const Home = () => {
   return (
@@ -18,25 +18,25 @@ export const Home = () => {
         transformamos la información para ser comprendida.{" "}
         <strong>Disfruta Comeet Cat.</strong>
       </p>
-
-      <Subtitle subtitle="Visión" />
-      <p>
-        Crear aplicaciones que comuniquen de forma entretenida y aporten a la
-        pregnancia del conocimiento.{" "}
-      </p>
-
-      <Subtitle subtitle="Principios de Diseño" />
-
-      <Subtitle subtitle="Terminología" />
-      <p>
-        Crear aplicaciones que comuniquen de forma entretenida y aporten a la
-        pregnancia del conocimiento.{" "}
-      </p>
-
-      <Subtitle subtitle="Imagotipo" />
-      <LogoDark />
-      <SecondarySubtitle value="Descargas" />
-      <Button value="Descargar" url="www.conejoestelar.com" />
+      <PrimaryLine />
+      <Subtitle subtitle="Todos nuestros enlaces principales:" />
+      <Button
+        value="Administración del Proyecto - Notion"
+        url="https://www.notion.so/comeetcat/"
+      />
+      <Button
+        value="Diseño de Interfaz - Figma"
+        url="https://www.figma.com/file/YbqbeMuP86KX8xNceTOCXT/Comeet-Cat?node-id=79%3A234"
+      />
+      <Button
+        value="Repositorio de código - Github"
+        url="https://github.com/soyraffaello/comeet-cat"
+      />
+      <Subtitle subtitle="Repositorio al Sistema de Diseño:" />
+      <Button
+        value="Repositorio del Sistema de Diseño - Github"
+        url="https://github.com/HectorDevx/Comeet-Cat-Design-System"
+      />
     </Fragment>
   );
 };

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const SecondarySub = styled.h4`
-  margin-top: 24px;
+  margin-top: 40px;
   font-size: 18px;
-  font-weight: 400;
-  color: #4f3e7a;
+  font-weight: 600;
+  color: #8a77bb;
 `;

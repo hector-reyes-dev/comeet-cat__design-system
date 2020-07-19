@@ -12,14 +12,11 @@ import {
 
 class ColorRow extends Component {
   render() {
-    const color = {
-      backgroundColor: "red",
-    };
     return (
       <Fragment>
         <RowColor>
           <ColorContainer>
-            <ColorWrap style={color} />
+            <ColorWrap inputColor={this.props.hex} />
             <p>HEX: {this.props.hex}</p>
             <p>rgb({this.props.rgb})</p>
           </ColorContainer>

@@ -4,6 +4,7 @@ import Title from "../components/Title";
 import Intro from "../components/Intro";
 import Subtitle from "../components/Subtitle";
 import ColorTable from "../container/ColorTable";
+import TypoTable from "../container/TypoTable";
 
 export const DesignTokens = () => {
   return (
@@ -16,6 +17,15 @@ export const DesignTokens = () => {
         continuaciónen toda nuestra interfaz.
       </p>
       <ColorTable />
+
+      <Subtitle subtitle="Tipografía" />
+      <p>
+        Usa los siguientes tokens para establecer familias de fuentes, pesos y
+        tamaños de letra de manera consistente.
+      </p>
+      <TypoTable />
+
+      <Subtitle subtitle="Ilustraciones" />
     </Fragment>
   );
 };
