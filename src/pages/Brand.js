@@ -38,7 +38,10 @@ export const Brand = () => {
         Buscamos comunicar sencilles, diversión y amabilidad.{" "}
       </p>
       <SecondarySubtitle value="Descargas" />
-      <Button value="Descargar" url="www.conejoestelar.com" />
+      <Button
+        value="Descargar"
+        url="https://drive.google.com/drive/folders/1gOruw8HCxF-ATQV1cDJ2y3A9FSKSixNe?usp=sharing"
+      />
       <PrimaryLine />
     </Fragment>
   );
