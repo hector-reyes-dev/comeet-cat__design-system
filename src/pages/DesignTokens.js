@@ -24,8 +24,6 @@ export const DesignTokens = () => {
         tamaños de letra de manera consistente.
       </p>
       <TypoTable />
-
-      <Subtitle subtitle="Ilustraciones" />
     </Fragment>
   );
 };

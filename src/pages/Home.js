@@ -6,6 +6,7 @@ import Intro from "../components/Intro";
 import Button from "../components/Button";
 import Subtitle from "../components/Subtitle";
 import PrimaryLine from "../components/Line";
+import SecondarySubtitle from "../components/SecondarySubtitle";
 
 export const Home = () => {
   return (
@@ -20,14 +21,17 @@ export const Home = () => {
       </p>
       <PrimaryLine />
       <Subtitle subtitle="Todos nuestros enlaces principales:" />
+      <SecondarySubtitle value="Administración del Proyecto" />
       <Button
         value="Administración del Proyecto - Notion"
         url="https://www.notion.so/comeetcat/"
       />
+      <SecondarySubtitle value="Diseño de Interfaz" />
       <Button
         value="Diseño de Interfaz - Figma"
         url="https://www.figma.com/file/YbqbeMuP86KX8xNceTOCXT/Comeet-Cat?node-id=79%3A234"
       />
+      <SecondarySubtitle value="Repositorio de código" />
       <Button
         value="Repositorio de código - Github"
         url="https://github.com/soyraffaello/comeet-cat"
