@@ -11,7 +11,7 @@ Design System del proyecto de Visualización de Asteroides Comeet Cat.
 ### Diseño UI 🎨
 
 <kbd>
-<img width="400" src="./assets/Comeet.png" alt="Portada Asteroid Documentación">
+<img width="800" src="./assets/Comeet.png" alt="Portada Asteroid Documentación">
 </kbd>
 
 ### Pre-requisitos 📋
