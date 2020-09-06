@@ -4,7 +4,15 @@ Deploy: 🛠️
 
 Design System del proyecto de Visualización de Asteroides Comeet Cat.
 
-![Logo Comeet - Cat](https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/59d229100589735.5f0c6692cc805.png)
+<kbd>
+<img width="400" src="./assets/logo.png" alt="Logo ComeetCat">
+</kbd>
+
+### Diseño UI 🎨
+
+<kbd>
+<img width="400" src="./assets/Comeet.png" alt="Portada Asteroid Documentación">
+</kbd>
 
 ### Pre-requisitos 📋
 
