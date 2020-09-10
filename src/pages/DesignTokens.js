@@ -6,6 +6,8 @@ import Subtitle from "../components/Subtitle";
 import ColorTable from "../container/ColorTable";
 import TypoTable from "../container/TypoTable";
 
+import Icon from "../components/Icons/Icon";
+
 export const DesignTokens = () => {
   return (
     <Fragment>
@@ -24,6 +26,11 @@ export const DesignTokens = () => {
         tamaños de letra de manera consistente.
       </p>
       <TypoTable />
+      <Icon svg="instagram" title="Facebook" classes="svg-icon" />
+      <Icon svg="github" title="Facebook" classes="svg-icon" />
+      <Icon svg="velocity" title="Facebook" classes="svg-icon" />
+      <Icon svg="warning" title="Facebook" classes="svg-icon" />
+      <Icon svg="behance" title="Facebook" classes="svg-icon" />
     </Fragment>
   );
 };

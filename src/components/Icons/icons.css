@@ -1,0 +1,10 @@
+.svg-icon {
+  height: 1em;
+  fill: black;
+  /* fill: currentcolor; */
+  /* currentColor actua como una variable tomando 
+     el color el nodo padre. 
+     Si estás utilizando vectores que poseen distintos 
+     rellenos, no serán afectados por esta línea
+  */
+}
