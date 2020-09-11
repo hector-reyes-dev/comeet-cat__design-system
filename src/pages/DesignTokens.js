@@ -5,8 +5,7 @@ import Intro from "../components/Intro";
 import Subtitle from "../components/Subtitle";
 import ColorTable from "../container/ColorTable";
 import TypoTable from "../container/TypoTable";
-
-import Icon from "../components/Icons/Icon";
+import IconsTable from "../container/IconsTable";
 
 export const DesignTokens = () => {
   return (
@@ -26,11 +25,13 @@ export const DesignTokens = () => {
         tamaños de letra de manera consistente.
       </p>
       <TypoTable />
-      <Icon svg="instagram" title="Facebook" classes="svg-icon" />
-      <Icon svg="github" title="Facebook" classes="svg-icon" />
-      <Icon svg="velocity" title="Facebook" classes="svg-icon" />
-      <Icon svg="warning" title="Facebook" classes="svg-icon" />
-      <Icon svg="behance" title="Facebook" classes="svg-icon" />
+
+      <Subtitle subtitle="Iconografía" />
+      <p>
+        Usa los siguientes tokens para establecer los iconos que desees
+        utilizar.
+      </p>
+      <IconsTable />
     </Fragment>
   );
 };
