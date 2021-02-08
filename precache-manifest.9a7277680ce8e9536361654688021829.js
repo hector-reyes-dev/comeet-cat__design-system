@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9002202798d1c11ecf4dc4f75361a1f",
+    "revision": "4cc53542f7da421b9e9edef01396167c",
     "url": "/comeet-cat__design-system/index.html"
   },
   {
-    "revision": "9ecbc55972a6590c44f9",
+    "revision": "ddbee981b80d4ce131b5",
     "url": "/comeet-cat__design-system/static/css/main.a2dfdf81.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/comeet-cat__design-system/static/js/2.fcb716b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ecbc55972a6590c44f9",
-    "url": "/comeet-cat__design-system/static/js/main.27a0b658.chunk.js"
+    "revision": "ddbee981b80d4ce131b5",
+    "url": "/comeet-cat__design-system/static/js/main.f1e8a1ed.chunk.js"
   },
   {
     "revision": "5e7ec0a11cad189fdfcc",
