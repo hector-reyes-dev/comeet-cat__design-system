@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/comeet-cat__design-system/precache-manifest.9a7277680ce8e9536361654688021829.js"
+  "/comeet-cat__design-system/precache-manifest.eeb33ac7c52c3876087b27d588d339da.js"
 );
 
 self.addEventListener('message', (event) => {
