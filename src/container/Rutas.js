@@ -15,13 +15,13 @@ export const Rutas = () => {
   return (
     <Container>
       <Router>
-        <Home path="/" />
-        <Brand path="/brand" />
-        <WebDesign path="/web-design" />
-        <DesignTokens path="/design-tokens" />
-        <Components path="/components" />
-        <ProjectManagment path="/project-managment" />
-        <Contribution path="/contribution" />
+        <Home path="/comeet-cat__design-system/" />
+        <Brand path="/comeet-cat__design-system/brand" />
+        <WebDesign path="/comeet-cat__design-system/web-design" />
+        <DesignTokens path="/comeet-cat__design-system/design-tokens" />
+        <Components path="/comeet-cat__design-system/components" />
+        <ProjectManagment path="/comeet-cat__design-system/project-managment" />
+        <Contribution path="/comeet-cat__design-system/contribution" />
       </Router>
     </Container>
   );
