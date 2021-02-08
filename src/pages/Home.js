@@ -39,7 +39,7 @@ export const Home = () => {
       <Subtitle subtitle="Repositorio al Sistema de Diseño:" />
       <Button
         value="Repositorio del Sistema de Diseño - Github"
-        url="https://github.com/HectorDevx/Comeet-Cat-Design-System"
+        url="https://github.com/HectorDevx/comeet-cat__design-system"
       />
     </Fragment>
   );
