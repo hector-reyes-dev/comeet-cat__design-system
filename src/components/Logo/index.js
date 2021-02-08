@@ -4,7 +4,7 @@ import { Link } from "@reach/router";
 
 function Logo(props) {
   return (
-    <Link to="/">
+    <Link to="/comeet-cat__design-system">
       <Svg
         viewBox="0 0 1198 451"
         fillRule="evenodd"

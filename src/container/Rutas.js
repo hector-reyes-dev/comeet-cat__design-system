@@ -15,7 +15,7 @@ export const Rutas = () => {
   return (
     <Container>
       <Router>
-        <Home path="/comeet-cat__design-system/" />
+        <Home path="/comeet-cat__design-system" />
         <Brand path="/comeet-cat__design-system/brand" />
         <WebDesign path="/comeet-cat__design-system/web-design" />
         <DesignTokens path="/comeet-cat__design-system/design-tokens" />
